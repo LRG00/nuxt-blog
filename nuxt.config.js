@@ -34,8 +34,18 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-  ],
+  modules: ['@tui-nuxt/editor'],
+  tui: {
+    editor: {
+      stylesheet: {
+        editor: 'tui-editor/dist/tui-editor.min.css',
+        contents: 'tui-editor/dist/tui-editor-contents.min.css',
+        codemirror: 'codemirror/lib/codemirror.css',
+        codeHighlight: 'highlight.js/styles/github.css',
+        colorPicker: 'tui-color-picker/dist/tui-color-picker.min.css'
+      }
+    }
+  },
   /*
   ** Build configuration
   */

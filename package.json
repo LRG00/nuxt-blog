@@ -11,10 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@tui-nuxt/editor": "^1.0.0-alpha.4",
+    "axios": "^0.19.0",
     "cross-env": "^5.2.0",
-    "koa": "^2.6.2",
     "element-ui": "^2.4.11",
-    "nuxt": "^2.0.0"
+    "koa": "^2.6.2",
+    "nuxt": "^2.0.0",
+    "tui-editor": "^1.4.4-alpha.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
